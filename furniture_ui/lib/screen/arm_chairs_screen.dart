@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_furniture_store_app_ui/common/constants.dart';
-import 'package:flutter_furniture_store_app_ui/widgets/product_widget.dart';
+import 'package:furniture_ui/common/constants.dart';
+import 'package:furniture_ui/widgets/product_widget.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import '../common/color_constants.dart';
-
 
 /*
 Title:ArmChairsScreen
@@ -15,7 +14,7 @@ Created By:Kalpesh Khandla
 
 class ArmChairsScreen extends StatefulWidget {
   ArmChairsScreen({
-    Key key,
+    required Key key,
   }) : super(key: key);
 
   @override

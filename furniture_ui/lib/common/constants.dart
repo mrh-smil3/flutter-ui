@@ -1,6 +1,4 @@
-
-
-import 'package:flutter_furniture_store_app_ui/model/product_model.dart';
+import 'package:furniture_ui/model/product_model.dart';
 
 class Constants {
   static List<ProductModel> chairs = [

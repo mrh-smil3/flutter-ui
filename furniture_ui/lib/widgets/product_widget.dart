@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_furniture_store_app_ui/common/color_constants.dart';
-import 'package:flutter_furniture_store_app_ui/screen/product_details_screen.dart';
+import 'package:furniture_ui/common/color_constants.dart';
+import 'package:furniture_ui/screen/product_details_screen.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
@@ -17,7 +17,7 @@ class ProductWidget extends StatelessWidget {
   final ProductModel productModel;
   const ProductWidget({
     this.productModel,
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

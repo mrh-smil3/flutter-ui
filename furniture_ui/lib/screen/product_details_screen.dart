@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_furniture_store_app_ui/model/product_model.dart';
+import 'package:furniture_ui/model/product_model.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import '../common/color_constants.dart';
@@ -15,7 +15,7 @@ class ProductDetailsScreen extends StatefulWidget {
   final ProductModel productModel;
 
   const ProductDetailsScreen({
-    Key key,
+    Key? key,
     this.productModel,
   }) : super(key: key);
   @override

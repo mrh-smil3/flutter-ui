@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_furniture_store_app_ui/common/color_constants.dart';
-import 'package:flutter_furniture_store_app_ui/common/constants.dart';
-import 'package:flutter_furniture_store_app_ui/widgets/best_offer_widget.dart';
-import 'package:flutter_furniture_store_app_ui/widgets/chair_widget.dart';
+import 'package:furniture_ui/common/color_constants.dart';
+import 'package:furniture_ui/common/constants.dart';
+import 'package:furniture_ui/widgets/best_offer_widget.dart';
+import 'package:furniture_ui/widgets/chair_widget.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'arm_chairs_screen.dart';
@@ -16,7 +16,7 @@ Created By:Kalpesh Khandla
 
 class HomePageScreen extends StatefulWidget {
   HomePageScreen({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -223,7 +223,3 @@ class _HomePageScreenState extends State<HomePageScreen> {
     );
   }
 }
-
-
-
-

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_furniture_store_app_ui/common/color_constants.dart';
-import 'package:flutter_furniture_store_app_ui/model/product_model.dart';
-import 'package:google_fonts/google_fonts.dart';
 
+import 'package:furniture_ui/common/color_constants.dart';
+import 'package:furniture_ui/model/product_model.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 /*
 Title:ChairWidget
